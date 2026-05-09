@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student attendance Manager - Version 01</title>
+<link rel="Stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Header Component -->
+    <div class="header">
+      <h1>Student Attendance Manager</h1>
+      <p>CO1: Foundations of Front-End Engineering & Framework Design</p>
+    </div>
+
+    <!-- Student Form Component -->
+    <div class="card">
+      <h2>Add Student</h2>
+
+      <input type="text" id="studentName" placeholder="Enter Student Name" />
+
+      <button class="add-btn" onclick="addStudent()">
+        Add Student
+      </button>
+    </div>
+
+    <!-- Attendance List -->
+    <div class="card">
+      <h2>Attendance List</h2>
+
+      <div id="studentList"></div>
+    </div>
+
+    <!-- CO1 Concepts Section -->
+    <div class="card">
+      <h2>CO1 Concepts Implemented</h2>
+
+      <div class="concept-grid">
+
+        <div class="concept-box">
+          <h3>1. Declarative UI</h3>
+          <p>
+            UI updates automatically based on JavaScript state.
+          </p>
+        </div>
+
+        <div class="concept-box">
+          <h3>2. DOM Manipulation</h3>
+          <p>
+            JavaScript updates HTML elements dynamically.
+          </p>
+        </div>
+
+        <div class="concept-box">
+          <h3>3. Virtual DOM Concept</h3>
+          <p>
+            A virtual structure is compared before updating the real DOM.
+          </p>
+        </div>
+
+        <div class="concept-box">
+          <h3>4. Unidirectional Data Flow</h3>
+          <p>
+            Data flows from application state to UI rendering.
+          </p>
+        </div>
+
+        <div class="concept-box">
+          <h3>5. Component-Driven Thinking</h3>
+          <p>
+            Header, Form, List, and Footer act like components.
+          </p>
+        </div>
+
+        <div class="concept-box">
+          <h3>6. Reactive State</h3>
+          <p>
+            UI re-renders whenever attendance data changes.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>Student Attendance Manager Version-01</p>
+    </div>
+
+  </div>
+
+ 
+</body>
+</html>

@@ -1,0 +1,105 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f4f6f9;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .header {
+      background: #2563eb;
+      color: white;
+      padding: 25px;
+      border-radius: 15px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      margin-bottom: 15px;
+    }
+
+    input {
+      width: 70%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    button {
+      padding: 12px 18px;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      cursor: pointer;
+      margin-left: 5px;
+    }
+
+    .add-btn {
+      background: green;
+    }
+
+    .toggle-btn {
+      background: blue;
+    }
+
+    .delete-btn {
+      background: red;
+    }
+
+    .student {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+
+    .present {
+      color: green;
+      font-weight: bold;
+    }
+
+    .absent {
+      color: red;
+      font-weight: bold;
+    }
+
+    .concept-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+
+    .concept-box {
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    .footer {
+      text-align: center;
+      color: gray;
+      margin-top: 20px;
+    }
+  
